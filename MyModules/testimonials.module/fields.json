@@ -1,0 +1,92 @@
+[ {
+  "id" : "59d4b297-cf65-184d-cda3-207c41bfe558",
+  "name" : "title",
+  "display_width" : null,
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "What our Client Says?"
+}, {
+  "id" : "bfc154ef-15f8-579e-f721-47c3031540cc",
+  "name" : "message",
+  "display_width" : null,
+  "label" : "Message",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : 3,
+    "sorting_label_field" : "35bd9b12-388f-baa1-3cae-e302c166149a",
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "35bd9b12-388f-baa1-3cae-e302c166149a",
+    "name" : "nickname",
+    "display_width" : null,
+    "label" : "nickname",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Nickname"
+  }, {
+    "id" : "e0b4b085-493b-7d8a-62ad-a3e178f9ea82",
+    "name" : "message",
+    "display_width" : null,
+    "label" : "message",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed nulla sed metus aliquet ultrices. Donec vel tempor dui. Suspendisse ullamcorper ligula at rutrum pharetra."
+  }, {
+    "id" : "a6e5d8b1-f7b5-ad86-d159-8272f7737016",
+    "name" : "image_field",
+    "display_width" : null,
+    "label" : "Image",
+    "help_text" : "",
+    "required" : false,
+    "locked" : false,
+    "responsive" : false,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "exact",
+      "loading" : "lazy"
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "nickname" : "Nickname",
+    "message" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed nulla sed metus aliquet ultrices. Donec vel tempor dui. Suspendisse ullamcorper ligula at rutrum pharetra.",
+    "image_field" : {
+      "size_type" : "exact",
+      "loading" : "lazy"
+    }
+  }, {
+    "nickname" : "Nickname",
+    "message" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed nulla sed metus aliquet ultrices. Donec vel tempor dui. Suspendisse ullamcorper ligula at rutrum pharetra.",
+    "image_field" : {
+      "size_type" : "exact",
+      "loading" : "lazy"
+    }
+  }, {
+    "nickname" : "Nickname",
+    "message" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed nulla sed metus aliquet ultrices. Donec vel tempor dui. Suspendisse ullamcorper ligula at rutrum pharetra.",
+    "image_field" : {
+      "size_type" : "exact",
+      "loading" : "lazy"
+    }
+  } ]
+} ]

@@ -1,0 +1,14 @@
+defaultPortal: ranjith_test
+portals:
+  - name: ranjith_test
+    portalId: 44106609
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CPLMnqayMRIRAAEAQAAAAGwAQAJYAgEAAAgY8YaEFSDVgacCKO7pDDIUCADoMPGcGUafXHEYZ9w8oFfVwXk6NgAAAEEAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAPGBQAABEAABA_BgGABAgAwAAAAAADEIUZtk8ao_Wb2aYIPL23vhb8-WTCd5KA25hMVIAWgA
+        expiresAt: '2023-10-12T16:45:45.992Z'
+    personalAccessKey: >-
+      CiQ2ZjQ5OTE5My1jMjIwLTQwYzktYTljNS03ZWE4Mzc5OTU5MmEQ8YaEFRjVgacCKhkABeaRgiiIF7uNqZZWyQ7USeo-sIdLaR56SgNuYTE
+    sandboxAccountType: null
+    parentAccountId: null
