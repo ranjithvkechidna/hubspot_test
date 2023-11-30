@@ -8,8 +8,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.3
-      - name: Show GitHub context   
-        env: 
-          GITHUB_CONTEXT: ${{ github.triggering_actor }}   
-        run: echo "$GITHUB_CONTEXT"
+      - name: Show GitHub context
+        if: ${{ github.triggering_actor != 'ranjithvkechidna' }}
+        run: echo 'test'
+      - name: Test data  
+        run: echo "Testing the data..."
         shell: bash
